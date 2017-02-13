@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    pod:
+    docker:
       - image: php:7.0-apache
         environment:
           APP_ENV: local
